@@ -1,0 +1,154 @@
+body {
+  font-family: "Montserrat";
+  line-height: 2;
+  text-align: center;
+}
+h1,
+h2,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat" sans-serif;
+}
+p {
+  color: #8f8f8f;
+}
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section {
+  background-color: #fff;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+.bt {
+  margin: 5% 3% 5% 0;
+}
+
+/* titile */
+.main-title {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+.navbar {
+  padding-left: 0;
+  padding-bottom: 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+.tindog {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+.iphone {
+  width: 60%;
+  transform: rotate(30deg);
+  position: absolute;
+  z-index: 0;
+  right: 35%;
+}
+
+/* feature */
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+.feature-box {
+  padding: 4.5%;
+}
+
+.secondColText {
+  font-family: "montserrat";
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: black;
+}
+.secondColPar {
+  width: 75%;
+  margin: 0 auto;
+}
+.ic {
+  color: #ef8172;
+  padding-bottom: 20px;
+}
+.ic:hover {
+  color: #ff4c68;
+}
+
+/* testamomials */
+
+#testimonials {
+  background-color: #ef8172;
+}
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.tmText {
+  font-family: "montserrat";
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.tesimg {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.press-img {
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+/* pricing */
+
+#pricing {
+  padding: 100px;
+}
+.pricing-card {
+  padding: 3% 2%;
+}
+@media (max-width: 1025px) {
+  #title {
+    text-align: center;
+  }
+  .iphone {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+  .tiw {
+    width: 100%;
+  }
+}
+
+/* cta */
+
+#cta {
+  margin: 0 auto;
+}
+
+/* footer */
+
+.footer-icon {
+  margin: 10px;
+}
+.footer-icon:hover {
+  color: #ff4c68;
+}
+.footer-text {
+  padding-top: 10px;
+}
